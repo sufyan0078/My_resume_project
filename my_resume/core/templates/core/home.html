@@ -1,0 +1,25 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% block content %}
+<div class='mt-5'>
+    <div class='text-center'>
+        <img src="{% static "core/images/myimage.jpeg" %}" alt="ProfilePic" class="img-thumbnail" width="250px" height='100px'>
+    </div>
+    <div class='text-white mt-5 mx-5'>
+        <h3 class='font-weight-bold st-font'>Hello,</h3>
+       <div class='text-justify px-5' style="line-height:2rem;">
+        <p style='text-indent:50px;'>I am <b class='text-warning'>Sufyan Ansari - Full Stack Python Developer</b>
+            With a robust foundation in full stack development and a passion for creating dynamic, user-centric applications, I bring nearly a year of hands-on experience in crafting scalable web solutions. Specializing in Python, I adeptly employ <b class='text-warning'>Django and Flask</b> for back-end development to ensure seamless data processing and application logic. My front-end expertise lies in creating intuitive and visually appealing interfaces using <b class='text-warning'>HTML, CSS, JavaScript, and Bootstrap</b>, enhancing user engagement and satisfaction.
+
+            Beyond web development, I possess a keen interest in leveraging data to drive decision-making and insights. My proficiency in <b class='text-warning'>SQL, PostgreSQL, and MongoDB</b> enables me to design and manage databases effectively, ensuring data integrity and optimized access for application needs. My exploratory journey into the realm of deep learning has equipped me with foundational skills in <b class='text-warning'>TensorFlow, Keras, Numpy, and Pandas</b>. This knowledge allows me to integrate intelligent features into applications, from predictive analytics to automated decision systems, broadening the scope of what my projects can achieve.
+            
+            I am committed to continuous learning and applying the latest technologies to solve real-world problems, striving to deliver projects that exceed expectations and set new benchmarks in functionality and user experience.</p>
+       </div>
+    </div>
+    <div class='text-center'>
+        <a href="" class="btn btn-outline-danger my-3 mr-5">Hire Me</a>
+        <a href="" class="btn btn-outline-info my-3 ms-5">Contact Us</a>
+    </div>
+</div>
+{% endblock content %}
+
